@@ -5,6 +5,9 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  font-weight: normal;
+  font-size: 19px;
+  font-family: Roboto;
 }
 
 a {
@@ -21,4 +24,8 @@ li {
 html,
 body {
   font-family: 'Inter', sans-serif;
+}
+
+:root {
+  padding: 0 10px;
 }

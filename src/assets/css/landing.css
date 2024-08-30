@@ -1,5 +1,53 @@
 .landing {
   max-width: 1280px;
   width: 100%;
-  margin: auto;
+  margin: 20px auto 0 auto;
+}
+
+.big-swiper {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+
+  height: 600px;
+}
+
+.swiper {
+  border-radius: 10px;
+}
+
+.categories-section {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.big-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-top: 50px;
+  gap: 25px;
+}
+
+.category-item {
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.category-img {
+  width: 100%;
+}
+
+.see-categories {
+  padding: 15px 130px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(118, 154, 20);
+  border-radius: 10px;
+  width: fit-content;
+  margin: 40px auto;
 }
